@@ -402,4 +402,4 @@ def home():
     return "Server running. Use POST /api/generate_monthly_plan with {'month':4}."
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=5001)
+    app.run(debug=True, host="0.0.0.0", port=7778)
